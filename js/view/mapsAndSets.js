@@ -51,7 +51,6 @@ function init() {
     // console.log(weatherMap.get({ a: 1 }));
 
     /* #################### Быстрое создание Map ####################*/
-
     // const weatherMap = new Map([
     //     ["London", "10"],
     //     ["Moscow", "7"],
@@ -81,6 +80,18 @@ function init() {
     // console.log([...weatherMap]);
     // console.log([...weatherMap.keys()]);
     // console.log([...weatherMap.values()]);
+
+    /* #################### Упражнение - swap ключей и значений ####################*/
+    /* Необходимо поменять местами ключи и значения в следующем Мар */
+    // let weatherMap = new Map([
+    //     ["London", "10"],
+    //     ["Moscow", "7"],
+    //     ["Paris", "14"],
+    // ]);
+    //
+    // weatherMap = new Map([...weatherMap].map(el => el.reverse()))
+    // console.log(weatherMap);
+
 
 }
 

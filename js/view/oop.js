@@ -36,6 +36,23 @@ function init() {
             информации о типе и внутренней структуре объекта.
     */
 
+    /* #################### Реализация ООП в JS #################### */
+    // const User = function (email, password) {
+    //     this.email = email;
+    //     this.password = password + '・・・';
+    // }
+    // const user1 = new User('a@a.ru', '123');
+    // console.log(user1);
+    // const user2 = new User('a2@a.ru', '123');
+    // console.log(user2);
+    // console.log(user2 instanceof User);
+    // Создаётся пустой объект.
+    // Вызывается User функция
+    // this = пустому объекту
+    // Объект связывается с prototype.
+    // Возвращается объект
+
+
 
 }
 export default init;

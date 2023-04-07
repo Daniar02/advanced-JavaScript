@@ -3,6 +3,7 @@ import calculationsAndMath from "./view/calculationsAndMath.js";
 import datesAndTimes from "./view/datesAndTimes.js";
 import timers from "./view/timers.js";
 import oop from "./view/oop.js";
+import classes from "./view/classes.js";
 
 window.onload = function () {
 
@@ -11,4 +12,5 @@ window.onload = function () {
     datesAndTimes();
     timers();
     oop();
+    classes();
 }

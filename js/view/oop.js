@@ -77,5 +77,58 @@ function init() {
     // console.log(Book.prototype.isPrototypeOf(lordOfTheRing));
     // console.log(Book.prototype.isPrototypeOf(Book));
 
+    /* #################### Упражнение - Корзина товаров #################### */
+    /*
+        Реализовать на функциях и прототипах корзину товаров с методами.
+        Добавить товар.
+        Увеличить число товаров.
+        - Уменьшить число товаров (удалить если их 0)
+    */
+    // const product = { id: 1, name: 'Bread', count: 1};
+    // const Card = function () {
+    //     this.products = [];
+    // }
+    //
+    // Card.prototype.addProduct = function(product) {
+    //     if (this.products.find(product => product.id === product.id)) {
+    //         return;
+    //     }
+    //     this.products.push(product);
+    // }
+    //
+    // Card.prototype.increaseAmount = function(id) {
+    //     this.products = this.products.map(product => {
+    //         if (product.id === id) {
+    //             product.count++;
+    //             return product;
+    //         }
+    //         return product;
+    //     })
+    // }
+    //
+    // Card.prototype.decreaseAmount = function(id) {
+    //     this.products = this.products
+    //         .map(product => {
+    //             if (product.id === id) {
+    //                 product.count--;
+    //                 return product;
+    //             }
+    //             return product;
+    //         })
+    //         .filter(product => product.count > 0);
+    // }
+    //
+    // const card = new Card();
+    // card.addProduct(product);
+    // card.increaseAmount(1);
+    // card.decreaseAmount(1);
+    // card.decreaseAmount(1);
+    // console.log(card);
+    //
+    // const card2 = new Card();
+    // card2.addProduct(product);
+    // console.log(card2);
+
+
 }
 export default init;

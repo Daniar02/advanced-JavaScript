@@ -1,5 +1,5 @@
 function init() {
-    /* #################### Sets ####################*/
+    /* #################### Sets #################### */
     // const flights = ["Russia", "USD", "London"];
     //
     // const setFlights = new Set(flights);
@@ -21,7 +21,7 @@ function init() {
     // console.log(setObj);
     // console.log(new Set("abc"));
 
-    /* #################### Основы работы с Map ####################*/
+    /* #################### Основы работы с Map #################### */
     // const weatherMap = new Map();
     // weatherMap.set('London', 10)
     //           .set('Moscow', 7);
@@ -50,7 +50,7 @@ function init() {
     // console.log(weatherMap.get(array));
     // console.log(weatherMap.get({ a: 1 }));
 
-    /* #################### Быстрое создание Map ####################*/
+    /* #################### Быстрое создание Map #################### */
     // const weatherMap = new Map([
     //     ["London", "10"],
     //     ["Moscow", "7"],
@@ -66,7 +66,7 @@ function init() {
     // const weatherObject2 = new Map(Object.entries(weatherObject));
     // console.log(weatherObject2);
 
-    /* #################### Итерация по Map ####################*/
+    /* #################### Итерация по Map #################### */
     // const weatherMap = new Map([
     //     ["London", "10"],
     //     ["Moscow", "7"],
@@ -81,7 +81,7 @@ function init() {
     // console.log([...weatherMap.keys()]);
     // console.log([...weatherMap.values()]);
 
-    /* #################### Упражнение - swap ключей и значений ####################*/
+    /* #################### Упражнение - swap ключей и значений #################### */
     /* Необходимо поменять местами ключи и значения в следующем Мар */
     // let weatherMap = new Map([
     //     ["London", "10"],
@@ -92,7 +92,7 @@ function init() {
     // weatherMap = new Map([...weatherMap].map(el => el.reverse()))
     // console.log(weatherMap);
 
-    /* #################### WeakMap ####################*/
+    /* #################### WeakMap #################### */
     // let a = { a: 1 };
     // let b = { b: 2 };
     // const map = new WeakMap();
@@ -121,7 +121,7 @@ function init() {
     // const res2 = getValue(b);
     // console.log(res2);
 
-    /* #################### WeakSet ####################*/
+    /* #################### WeakSet #################### */
     // let a = { a: 1 };
     // let b = { b: 2 };
     // const set = new WeakSet([a, b]);

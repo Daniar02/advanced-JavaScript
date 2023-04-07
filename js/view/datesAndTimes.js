@@ -52,6 +52,26 @@ function init() {
     //
     // console.log(Number(first) === Number(second));
     // console.log(+first === +second);
+
+    /* #################### Упражнение - Проверка на день рождения #################### */
+    // const user1 = {
+    //     name: "Ivan",
+    //     birthday: '04/07/2023'
+    // };
+    //
+    // function isBirthday(user) {
+    //     const birthdayDate = new Date(user.birthday);
+    //     const now = new Date();
+    //     if (birthdayDate.getMonth() !== now.getMonth()) {
+    //         return false;
+    //     }
+    //     if (birthdayDate.getDate() !== now.getDate()) {
+    //         return false;
+    //     }
+    //     return true
+    // }
+    // console.log(isBirthday(user1));
+
 }
 
 export default init

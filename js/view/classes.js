@@ -73,6 +73,28 @@ function init() {
     // console.log(newTask.dueDate = new Date("2024/1/1"));
     // console.log(newTask);
 
+    /* #################### Static #################### */
+    // class Test {
+    //     static a = 1;
+    //     static test() {
+    //         console.log("hello");
+    //     }
+    //     static {
+    //         let b = 5;
+    //         this.a = 5;
+    //     }
+    // }
+    // Test.test();
+    // console.log(Test.a);
+    //
+    // const Test2 = function () {
+    //
+    // }
+    // Test2.hello = function() {
+    //     console.log("Hello");
+    // }
+    // Test2.hello();
+
 }
 
 export default init

@@ -52,7 +52,30 @@ function init() {
     // Объект связывается с prototype.
     // Возвращается объект
 
-
+    /* #################### Prototype #################### */
+    // const Book = function(title, author) {
+    //     this.title = title
+    //     this.author = author
+    //     this.isRead = false
+    // }
+    // Book.prototype.read = function () {
+    //     this.isRead = true
+    // }
+    //
+    // Book.prototype.cover = "Parer";
+    //
+    // const lordOfTheRing = new Book('Lord of the ring', 'Tolkien');
+    // lordOfTheRing.read()
+    //
+    // console.log(lordOfTheRing);
+    // console.log(lordOfTheRing.cover);
+    // console.log(lordOfTheRing.hasOwnProperty("cover"));
+    // console.log(lordOfTheRing.hasOwnProperty("author"));
+    //
+    // console.log(lordOfTheRing.__proto__);
+    // console.log(lordOfTheRing.__proto__ === Book.prototype);
+    // console.log(Book.prototype.isPrototypeOf(lordOfTheRing));
+    // console.log(Book.prototype.isPrototypeOf(Book));
 
 }
 export default init;

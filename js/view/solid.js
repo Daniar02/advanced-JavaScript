@@ -75,5 +75,29 @@ function init() {
     // logRole(new User());
     // logRole(new Admin());
 
+    /* #################### Принцип разделения интерфейса. #################### */
+    // class Weapon {
+    //     cost;
+    //
+    //     dealDamage() {
+    //
+    //     }
+    // }
+    //
+    // class Rifle extends Weapon {
+    //     strike() {
+    //         this.dealDamage();
+    //         // удар 🔥
+    //     };
+    // }
+    //
+    // class Sword extends Weapon {
+    //     strike() {
+    //         this.dealDamage();
+    //         // удар 🔥
+    //     };
+    // }
+
+
 }
 export default init;

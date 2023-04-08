@@ -153,6 +153,28 @@ function init() {
     // console.log(user.changePassword('123', '234'));
     // console.log(user.checkPassword('234'));
 
+    /* #################### Object.create. #################### */
+    // const User = {
+    //     init(email, password) {
+    //         this.email = email;
+    //         this.password = password;
+    //     },
+    //     log() {
+    //         console.log("User");
+    //     }
+    // }
+    //
+    // const user = Object.create(User);
+    // user.init('a@a.kg', "123");
+    // console.log(user);
+    // user.log();
+    // console.log(user.__proto__ == User);
+    //
+    // const admin = Object.create(user);
+    // console.log(admin);
+    // admin.log();
+    // console.log(admin.email);
+
 }
 
 export default init

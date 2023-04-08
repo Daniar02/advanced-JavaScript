@@ -95,6 +95,26 @@ function init() {
     // }
     // Test2.hello();
 
+    /* #################### Приватные методы и свойства #################### */
+    // class Car {
+    //     #vin;
+    //
+    //     #changeVin() {
+    //         console.log("change");
+    //     }
+    //     test() {
+    //         // проверка
+    //         this.#changeVin();
+    //     }
+    //     static #field = 3;
+    //     static {
+    //         this.#field = 3
+    //     }
+    // }
+    // const car = new Car();
+    // car.test();
+
+
 }
 
 export default init

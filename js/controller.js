@@ -4,6 +4,7 @@ import datesAndTimes from "./view/datesAndTimes.js";
 import timers from "./view/timers.js";
 import oop from "./view/oop.js";
 import classes from "./view/classes.js";
+import principles from "./view/principles.js";
 
 window.onload = function () {
 
@@ -13,4 +14,5 @@ window.onload = function () {
     timers();
     oop();
     classes();
+    principles();
 }

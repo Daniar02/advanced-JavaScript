@@ -30,25 +30,36 @@ function init() {
     //     })
 
     /* #################### Цепочка promise. #################### */
-    // fetch('https://dummyjson.com/products')
-    //     .then(
-    //         response => {
-    //             console.log(response);
-    //             return response.json()
-    //         }
-    //     )
-    //     .then(({ products }) => {
-    //         console.log(products);
-    //         return fetch('https://dummyjson.com/products/' + products[0].id);
-    //     })
-    //     .then(response => response.json())
-    //     .then(data => {
-    //         console.log(data);
-    //     })
-    //     .catch(error => console.log(error))
-    //     .finally(() => {
-    //         console.log('Finally');
-    //     });
+    fetch('https://dummyjson.com/products')
+        .then(
+            response => {
+                if (!response.ok) {
+                    throw new Error(`Is error ${response.status}`)
+                }
+                return response.json()
+            }
+        )
+        .then(({ products }) => {
+            console.log(products);
+            return fetch('https://dummyjson.com/products/' + products[0].id);
+            }
+        )
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Is error ${response.status}`)
+            }
+            response.json()
+        })
+        .then(data => {
+            console.log(data);
+        })
+        .catch(error => {
+            const el = document.querySelector('body');
+            el.innerHTML = error.message
+        })
+        .finally(() => {
+            console.log('Finally');
+        });
 
     /* #################### Упражнение - Select выбора категорий. #################### */
     /*
@@ -69,6 +80,7 @@ function init() {
     //         .catch(error => console.error(`Ошибка: ${error}`))
     // }
     // getCategories();
+
 
 }
 export default init

@@ -29,5 +29,28 @@ function init() {
     //         console.log(data);
     //     })
 
+    /* #################### Цепочка promise. #################### */
+    // fetch('https://dummyjson.com/products')
+    //     .then(
+    //         response => {
+    //             console.log(response);
+    //             return response.json()
+    //         }
+    //     )
+    //     .then(({ products }) => {
+    //         console.log(products);
+    //         return fetch('https://dummyjson.com/products/' + products[0].id);
+    //     })
+    //     .then(response => response.json())
+    //     .then(data => {
+    //         console.log(data);
+    //     })
+    //     .catch(error => console.log(error))
+    //     .finally(() => {
+    //         console.log('Finally');
+    //     });
+
+
+
 }
 export default init

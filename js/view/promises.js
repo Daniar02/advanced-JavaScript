@@ -30,36 +30,39 @@ function init() {
     //     })
 
     /* #################### Цепочка promise. #################### */
-    fetch('https://dummyjson.com/products')
-        .then(
-            response => {
-                if (!response.ok) {
-                    throw new Error(`Is error ${response.status}`)
-                }
-                return response.json()
-            }
-        )
-        .then(({ products }) => {
-            console.log(products);
-            return fetch('https://dummyjson.com/products/' + products[0].id);
-            }
-        )
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`Is error ${response.status}`)
-            }
-            response.json()
-        })
-        .then(data => {
-            console.log(data);
-        })
-        .catch(error => {
-            const el = document.querySelector('body');
-            el.innerHTML = error.message
-        })
-        .finally(() => {
-            console.log('Finally');
-        });
+    /* #################### Упражнение - Функция запросов. #################### */
+    /*
+        Сделать функцию, которая принимает строку и текст ошибки и возвращает уже Promise с JSON из тела запроса
+    */
+    // function getData(url, errorMessage, method = "GET") {
+    //     return fetch(url, {
+    //         method
+    //     })
+    //         .then(response => {
+    //                 if (!response.ok) {
+    //                     throw new Error(`${errorMessage} ${response.status}`)
+    //                 }
+    //                 return response.json()
+    //             }
+    //         )
+    // }
+    //
+    // getData('https://dummyjson.com/products', 'Can not get products')
+    //     .then(({ products }) => {
+    //         console.log(products);
+    //         return getData('https://dummyjson.com/products/' + products[0].id, 'Can not get product');
+    //         }
+    //     )
+    //     .then(data => {
+    //         console.log(data);
+    //     })
+    //     .catch(error => {
+    //         const el = document.querySelector('body');
+    //         el.innerHTML = error.message
+    //     })
+    //     .finally(() => {
+    //         console.log('Finally');
+    //     });
 
     /* #################### Упражнение - Select выбора категорий. #################### */
     /*

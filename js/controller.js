@@ -8,6 +8,7 @@ import principles from "./view/principles.js";
 import solid from "./view/solid.js";
 import asynchronous from "./view/asynchronous.js";
 import promises from "./view/promises.js";
+import eventLoop from "./view/eventLoop.js";
 
 window.onload = function () {
 
@@ -21,4 +22,5 @@ window.onload = function () {
     solid();
     asynchronous();
     promises();
+    eventLoop();
 }

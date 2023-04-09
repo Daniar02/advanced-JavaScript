@@ -7,6 +7,7 @@ import classes from "./view/classes.js";
 import principles from "./view/principles.js";
 import solid from "./view/solid.js";
 import asynchronous from "./view/asynchronous.js";
+import promises from "./view/promises.js";
 
 window.onload = function () {
 
@@ -19,4 +20,5 @@ window.onload = function () {
     principles();
     solid();
     asynchronous();
+    promises();
 }

@@ -47,6 +47,18 @@ function init() {
     //         return timeout(1);
     //     })
 
+    /* #################### Статические методы Promise. #################### */
+    // const prom = new Promise(resolve => {
+    //     console.log("Constructor");
+    //     setTimeout(() => {
+    //         resolve('Timer');
+    //     }, 1000);
+    // })
+    // prom.then(data => console.log(data))
+    // Promise.resolve('Success').then(data => console.log(data));
+    // Promise.reject(new Error('Error')).catch(error => console.error(error));
+
+
 
 
 

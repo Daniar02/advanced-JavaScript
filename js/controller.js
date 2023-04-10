@@ -9,6 +9,7 @@ import solid from "./view/solid.js";
 import asynchronous from "./view/asynchronous.js";
 import promises from "./view/promises.js";
 import eventLoop from "./view/eventLoop.js";
+import modernAsynchronousJavaScript from "./view/modernAsynchronousJavaScript.js";
 
 window.onload = function () {
 
@@ -23,4 +24,5 @@ window.onload = function () {
     asynchronous();
     promises();
     eventLoop();
+    modernAsynchronousJavaScript();
 }

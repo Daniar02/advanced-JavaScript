@@ -10,6 +10,7 @@ import asynchronous from "./view/asynchronous.js";
 import promises from "./view/promises.js";
 import eventLoop from "./view/eventLoop.js";
 import modernAsynchronousJavaScript from "./view/modernAsynchronousJavaScript.js";
+import domAndEvents from "./view/domAndEvents.js";
 
 window.onload = function () {
 
@@ -25,4 +26,5 @@ window.onload = function () {
     promises();
     eventLoop();
     modernAsynchronousJavaScript();
+    domAndEvents();
 }

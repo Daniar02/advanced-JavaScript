@@ -95,6 +95,22 @@ function init() {
     //
     // console.log(button.parentElement.children);
 
+    /* #################### Жизненный цикл событий DOM. #################### */
+    // document.addEventListener('DOMContentLoaded', function(event) {
+    //     console.log('DOMContentLoaded');
+    //     console.log(event)
+    // });
+    //
+    // window.addEventListener('load', function (e) {
+    //     console.log('load');
+    //     console.log(e)
+    // });
+    //
+    // window.addEventListener('beforeunload', function (e) {
+    //     e.preventDefault();
+    //     e.returnValue = ''
+    // });
+
 }
 
 export default init;

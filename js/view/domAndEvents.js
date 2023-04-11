@@ -56,6 +56,24 @@ function init() {
     //     this.style.background = '#006d77'
     // }, true);
 
+    /* #################### Делегирование событий̆. #################### */
+    // const wrapper = document.querySelector('.wrapper');
+    //
+    // for (let i = 0; i < 100; i++) {
+    //     const el = document.createElement('div');
+    //     el.innerHTML = `Пользователь с id ${i}`;
+    //     el.style.cssText = `border: 1px solid #006d77; border-radius: 10px; margin: 10px; padding: 10px`;
+    //     el.setAttribute('data-id', i);
+    //     // el.addEventListener('click', (e) => {
+    //     //     el.remove();
+    //     // });
+    //     wrapper.append(el);
+    // }
+    //
+    // wrapper.addEventListener('click', (e) => {
+    //     const i = e.target.getAttribute('data-id')
+    //     console.log(`Deleted ${i}`);
+    // });
 
 
 }

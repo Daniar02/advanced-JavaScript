@@ -193,5 +193,49 @@ function init() {
     // }
     // main();
 
+    /* #################### Упражнение - Генератор активностей. #################### */
+    /*
+        Сделать генератор 3x идей от скуки
+        https://www.boredapi.com/api/activity
+        с отображением на странице
+    */
+    // const wrapper = document.querySelector('body');
+    // const generate = document.querySelector('body');
+    // generate.innerHTML = `<button id="elem">Generate<button`
+    // elem.style.cssText = `
+    //         color: #fff;
+    //         display: block;
+    //         background: #ffb703;
+    //         padding: 5px 15px;
+    //         margin: 0 auto;
+    //         border: 1px solid #fb5607;
+    //         border-radius: 10px
+    //     `
+    //
+    // async function getActivity() {
+    //     const res = await fetch('https://www.boredapi.com/api/activity');
+    //     return res.json();
+    // }
+    // async function generateClick() {
+    //     try {
+    //         const data = await Promise.all([
+    //             getActivity(1),
+    //             getActivity(2),
+    //             getActivity(3)
+    //         ]);
+    //         console.log(data);
+    //         for (const el of data) {
+    //             const element = document.createElement('div');
+    //             element.innerHTML = `<div>${el.activity}</div>`
+    //             wrapper.style.textAlign = "center"
+    //             wrapper.appendChild(element)
+    //         }
+    //     } catch (e) {
+    //         console.error(e);
+    //     }
+    // }
+    // elem.onclick = generateClick;
+
+
 }
 export  default init;

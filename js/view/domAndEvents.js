@@ -15,6 +15,21 @@ function init() {
     // // el.before(button2);
     // // el.after(button2);
 
+    /* #################### Типы событий и обработчики. #################### */
+    // const btn = document.querySelector('.button');
+    //
+    // const eventHandler = function (event) {
+    //     console.log('Event 1')
+    // }
+    //
+    // btn.addEventListener('click', eventHandler)
+    //
+    // btn.addEventListener('click', (event) => {
+    //     console.log('Event 2');
+    //     btn.removeEventListener('click', eventHandler);
+    // })
+
+
 }
 
 export default init;

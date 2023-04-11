@@ -29,6 +29,34 @@ function init() {
     //     btn.removeEventListener('click', eventHandler);
     // })
 
+    /* #################### Пример всплытия событий. #################### */
+    // const wrapper = document.querySelector('.wrapper');
+    // const inner = document.querySelector('.inner');
+    // const button = document.querySelector('.button');
+    //
+    // button.addEventListener('click', function (event) {
+    //     console.log('Button');
+    //     console.log(event.target);
+    //     console.log(event.currentTarget);
+    //     this.style.background = '#ffb703'
+    // });
+    //
+    // inner.addEventListener('click', function (event) {
+    //     console.log('Inner');
+    //     console.log(event.target);
+    //     console.log(event.currentTarget);
+    //     this.style.background = '#7678ed';
+    //     event.stopPropagation();
+    // });
+    //
+    // wrapper.addEventListener('click', function (event) {
+    //     console.log('Wrapper');
+    //     console.log(event.target);
+    //     console.log(event.currentTarget);
+    //     this.style.background = '#006d77'
+    // }, true);
+
+
 
 }
 

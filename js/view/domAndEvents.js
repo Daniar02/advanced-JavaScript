@@ -111,6 +111,31 @@ function init() {
     //     e.returnValue = ''
     // });
 
+    /* #################### Упражнение - Поиск по списку. #################### */
+    // const wrapper = document.querySelector('.wrapper');
+    // const input = document.querySelector('input');
+    //
+    // for (let i = 0; i < 100; i++) {
+    //     const el = document.createElement('div');
+    //     el.innerHTML = i;
+    //     el.style.cssText = `border: 1px solid #006d77; border-radius: 10px; margin: 10px; padding: 10px`;
+    //     wrapper.append(el);
+    // }
+    //
+    // input.addEventListener('change', function (event) {
+    //     const inputValue = event.target.value;
+    //     for (const el of [...wrapper.children]) {
+    //         if (el.innerHTML.includes(inputValue)) {
+    //             el.classList.add('yellow');
+    //             continue;
+    //         }
+    //         else {
+    //             el.classList.remove('yellow');
+    //         }
+    //     }
+    //     console.log(inputValue);
+    // });
+
 }
 
 export default init;

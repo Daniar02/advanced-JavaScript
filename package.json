@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "rollup",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/Daniar02/advanced-JavaScript/issues"
   },
-  "homepage": "https://github.com/Daniar02/advanced-JavaScript#readme"
+  "homepage": "https://github.com/Daniar02/advanced-JavaScript#readme",
+  "dependencies": {
+    "axios": "^1.3.5"
+  },
+  "devDependencies": {
+    "rollup": "^3.20.2"
+  },
+  "peerDependencies": {
+
+  },
+  "peerDependenciesMeta": {
+
+  }
 }
